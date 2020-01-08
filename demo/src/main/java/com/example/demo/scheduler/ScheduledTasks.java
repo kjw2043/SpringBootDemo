@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class ScheduledTasks {
 	private static final Logger LOGGER = LoggerFactory.getLogger(ScheduledTasks.class);
 	
-	@Scheduled(fixedRate = 5000)
+	//@Scheduled(fixedRate = 5000)
 	public void cronJobSch() {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 		Date now = new Date();
