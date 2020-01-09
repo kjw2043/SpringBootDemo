@@ -9,6 +9,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 @Mapper
 public interface MemberMapper {
-	/**직원 목록**/
 	List<Map<String, Object>> selectMemberList();
 }
