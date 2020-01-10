@@ -32,8 +32,15 @@ public class MemberController {
 	}
 	
 	@RequestMapping("/member/add")
-	public ModelAndView addView() {
+	public ModelAndView add() {
 		ModelAndView mv = new ModelAndView("/member/add");
+		
+		return mv;
+	}
+	
+	@RequestMapping("/member/save")
+	public ModelAndView save() {
+		ModelAndView mv = new ModelAndView();
 		
 		return mv;
 	}
